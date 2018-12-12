@@ -1,0 +1,231 @@
+/* CSS Document */
+/* Denne siden er utviklet av Eirik og litt Robert. Sist gang endret: 08.06.2017
+//kontrollert av Robert 08.06.2017*/
+html,body{
+height: 100%;
+margin: 0 auto;
+background-color: #fafafa;
+}
+.mainHeader {
+position: relative;
+margin-top: 0 auto;
+}
+.mainHeader img.coverPhoto{
+width: 100%	;
+display: block;
+}
+ul.topnav {
+position: absolute;
+list-style-type: none;
+top: 0px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%;
+}
+ul img.logo{
+height: 50px;
+width: auto;
+margin-top: 3px;
+
+}
+ul.topnav li {
+float: left;
+}
+ul.topnav li.icon{display: none;}
+/*ul.topnav li:nth-of-type(1n+10) {
+display: none;
+}*/
+/*ul.topnav li a {
+display: inline-block;
+color: #fff;
+text-align: center;
+padding: 16px 24px;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 17px;
+}*/
+ul.topnav li button.Active{
+background-color: #207cca;
+}
+ul.topnav img:hover{
+cursor: pointer;
+}
+ul.topnav li button:hover {
+cursor: pointer;
+background-color: #207cca;
+color: #fff;
+}
+form{
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 0px;
+}
+.search {
+padding:8px 15px;
+background:rgba(50, 50, 50, 0.7);
+border:0px solid #dbdbdb;
+color: #fff;
+}
+.button {
+position: relative;
+padding:6px 15px;
+left:-8px;
+border:2px solid #207cca;
+background-color:#207cca;
+color:#fafafa;
+}
+.button:hover  {
+background-color:#fafafa;
+color:#207cca;
+border-color: #fafafa;
+}
+.tittel{
+position: absolute;
+top: 170px;
+width: 250px;
+background-color: rgba(50, 50, 50, 0.7);
+border-radius: 2%;
+padding: 5px 16px;
+}
+.tittel h1{
+font: bold 24px/45px Helvetica, Sans-Serif;
+color: #fff;
+}
+.tittel h3{
+font: bold 20px Helvetica, Sans-Serif;
+color: #fff;
+}
+
+.logoRes{
+ display: none;
+}
+.Content{
+position: relative;
+background-color: rgba(200, 200, 200, 0.2);
+padding: 20px 20px;
+margin: auto;
+margin-top: 2%;
+margin-bottom: 2%;
+width: 50%;
+clear: both;
+text-align: left;
+}
+.Content a{
+text-decoration: none;
+color: #000;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 24px;
+}
+.Content h2{
+font-family: sans-serif;
+font-size: 17px;
+}
+.mainFooter{
+background-color: rgb(50, 50, 50);
+text-align: center;
+height: 230px;
+width: 100%;
+margin: 0 auto;
+}
+.mainFooter a{
+text-decoration: none;
+color: #fff;
+}
+.mainFooter p a{
+text-decoration:  underline;
+color: #6495ED;
+}
+}
+.mainFooter p a:hover {
+cursor: pointer;
+background-color: #207cca;
+color: #fff;
+}
+.mainFooter img{
+margin-top: 3%;
+height: 100px;
+width: auto;
+}
+@media screen and (max-width:680px) {
+ul.topnav{
+position: absolute;
+}
+.logo{
+display: none;
+}
+.logoRes{
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+ul.topnav li:not(:first-child) {display: none;}
+ul.topnav li.icon {
+float: left;
+display: inline-block;
+}
+.tittel{
+display: none;
+}
+ul.topnav.responsive {
+position: absolute;
+background-color: #207cca;
+width: 100%;
+z-index: 1;
+margin: 0px;
+}
+ul.topnav.responsive li img.logo{
+display: none;
+}
+ul.topnav.responsive li.icon {
+right: 0px;
+top: 0;
+}
+ul.topnav.responsive li {
+top: 0;
+left: 0;
+float: none;
+display: inline;
+margin: 0;
+}
+ul.topnav.responsive li button {
+display: block;
+text-align: left;
+}
+.content{
+	width: 80%;
+}
+form{
+margin: 0px;
+}
+.search{
+width: 100%;
+margin-left: -1px;
+}
+.button{
+display: none;
+}
+}
+ul li button{
+display: inline-block;
+color: #fff;
+text-align: center;
+padding: 16px 24px;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 17px;
+background: transparent;
+border: none !important;
+}
+
+div h2 button{
+	    background: transparent;
+    border: none !important;
+    font: bold 20px Helvetica, Sans-Serif;
+}

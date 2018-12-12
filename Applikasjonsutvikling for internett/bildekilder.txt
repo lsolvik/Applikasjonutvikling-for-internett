@@ -1,0 +1,4 @@
+CoverPhoto 1 | http://www.uisp.it/reggioemilia/files/principale/Langlaufen1_01.jpg
+CoverPhoto 2 | http://www.herefordmountainclub.org.uk/wp-content/uploads/2014/12/mountain-walking-herefordshire1-1920x500.jpg
+CoverPhoto 3 | http://winter.champagny.com/images/headers/Ski/Handiski/handi.jpg
+CoverPhoto 4 | http://www.trekgarhwalhimalayas.com/header/fishing.jpg

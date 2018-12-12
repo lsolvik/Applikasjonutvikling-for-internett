@@ -1,0 +1,108 @@
+/* Denne siden er utviklet av Leonard og Eirik... Sist gang endret: 08.06.2017
+//kontrollert av John Robert 08.06.2017 */
+body {
+background-color: #fafafa;
+margin: 0 auto;
+font-family: sans-serif;
+}
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0, 16;
+overflow: hidden;
+
+}
+
+ul.topnav li {
+float: left;
+
+}
+
+ul.topnav li a{
+display: inline-block;
+color: #000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.3s;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 17px;
+}
+
+
+.menyKnapper button {
+font-family: sans-serif;
+font-size: 18px;
+font-weight: bold;
+background-color: #207cca;
+border-style: none;
+width: 150px;
+height: 30px; 
+color: #fafafa;
+}
+.menyKnapper button:hover {
+cursor: pointer;
+}
+
+
+.funksjonerWrapper{
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.registrerWrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.navWrapper{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%; 
+}
+
+.meny{
+text-align: center;
+width: 390px;
+border: solid 2px black;
+height: 570px;
+float: left;
+}
+.liste{
+margin-left: 10px;
+float: left;
+}
+
+textarea{
+resize: none;
+width: 200px;
+height: 100px;
+}
+
+table, th, td {
+border: 1px solid black;
+}
+table{
+display: block;
+height: 572px;
+overflow-y: scroll;
+border-collapse: collapse;
+  }
+th{
+background-color: #207cca;
+text-align: left;
+}
+th, td{
+padding: 15px;
+width: 100%;
+}
+
+
+
+
